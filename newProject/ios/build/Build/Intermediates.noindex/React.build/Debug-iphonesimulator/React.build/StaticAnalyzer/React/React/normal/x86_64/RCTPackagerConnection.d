@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/DevSupport/RCTPackagerConnection.mm \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Base/RCTBundleURLProvider.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/../Libraries/WebSocket/RCTReconnectingWebSocket.h \
+  /Users/balabukha/Documents/04_REACT_NATIVE/newProject/node_modules/react-native/React/../Libraries/WebSocket/RCTSRWebSocket.h
