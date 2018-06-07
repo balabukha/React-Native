@@ -2,21 +2,15 @@ import React from 'react';
 import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
 import ListItem from './src/components/ListItems/ListItem';
+import InputList from './src/components/InputList/InputList';
 
 export default class App extends React.Component {
-  state = { placeName: '', places: [] };
+  state = { places: [] };
 
-  placeNamehandleChange = val => {
-    this.setState({ placeName: val });
-  };
-
-  placeChangeHandler = val => {
-    if (this.state.placeName.trim() === '') return;
-
+  handleAddData = data =>
     this.setState(prevState => {
-      return { places: prevState.places.concat(prevState.placeName) }; // создается новый массив, старый + новое значение
+      return { places: prevState.places.concat(data) }; // создается новый массив, старый + новое значение
     });
-  };
 
   render() {
     const places = this.state.places.map((place, i) => {
@@ -24,16 +18,7 @@ export default class App extends React.Component {
     });
     return (
       <View style={styles.container}>
-        <View style={styles.inputContainer}>
-          <TextInput
-            style={{ width: 300 }}
-            value={this.state.placeName}
-            onChangeText={this.placeNamehandleChange}
-            placeholder="some place"
-            style={styles.spaceInput}
-          />
-          <Button title="Add" style={styles.spaceButton} onPress={this.placeChangeHandler} />
-        </View>
+        <InputList handleAddData={data => this.handleAddData(data)} />
         <View style={styles.listItems}>{places}</View>
         <View />
       </View>
